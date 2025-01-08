@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin's Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #FF6F61, #FFD700);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Style */
+        header {
+            background: #2C3E50;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 50% 50%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Main Content Styling */
+        .container {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .subheading {
+            font-size: 2rem;
+            color: #34495E;
+            font-weight: 600;
+            margin-top: 30px;
+            text-transform: uppercase;
+        }
+
+        .details {
+            background-color: #ffffff;
+            margin: 20px auto;
+            padding: 30px;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+
+        .details p {
+            font-size: 1.2rem;
+            margin: 15px 0;
+        }
+
+        .details strong {
+            color: #FF6F61;
+        }
+
+        /* Link Styling */
+        a {
+            color: #FF6F61;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid #FF6F61;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: #fff;
+            background-color: #FF6F61;
+            padding: 3px 10px;
+            border-radius: 5px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            .container {
+                padding: 20px;
+            }
+            .details {
+                padding: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nikhil Assigment for Atlys</h1>
+    </header>
+
+    <div class="container">
+        <div class="subheading">
+            Project Details
+        </div>
+        <div class="details">
+            <p><strong>Name:</strong> Nikhil Malhotra</p>
+            <p><strong>Address:</strong> Delhi </p>
+	    <p><strong>Current Company:</strong> Airtel Digital </p>
+            <p><strong>Role:</strong> Senior Platform Engineer - Xstream OTT, Airtel TV, Wynk Music</p>
+            <p><strong>Backened API URL:</strong> <a href="http://34.74.207.243:3000/users" target="_blank">Visit my portfolio(Get)</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
+
